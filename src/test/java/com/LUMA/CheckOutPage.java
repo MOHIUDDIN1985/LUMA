@@ -44,7 +44,7 @@ public class CheckOutPage extends BasePage{
         driver.findElement(phn).sendKeys(phone);
         Thread.sleep(2000);
         driver.findElement(flatRate).click();
-        Thread.sleep(5000);
+        Thread.sleep(4000);
         driver.findElement(clickNxt).click();
         Thread.sleep(2000);
         driver.findElement(placeOrdr).click();
